@@ -13,7 +13,7 @@ import re
 # train on text using nltk and predict sentiment (good or bad)
 # analyzing the sentiment of a given text
 
-# data used: kaggle
+# data used: kaggle get data: download csv from https://www.kaggle.com/datasets/crowdflower/first-gop-debate-twitter-sentiment?resource=download
 
 def load_and_clean_data(file_path):
     data = pd.read_csv(file_path)
@@ -123,4 +123,4 @@ def main(visualize=False):
     return wordcloud, classifier
 
 if __name__ == "__main__":
-    main()  # Set to False to skip visualization
+    main(visualize=False)  # Set to False to skip visualization

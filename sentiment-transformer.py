@@ -10,6 +10,10 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.utils import resample
 from sklearn.pipeline import Pipeline
 
+# transformer model
+
+# get data: download csv from https://www.kaggle.com/datasets/crowdflower/first-gop-debate-twitter-sentiment?resource=download
+
 def load_and_clean_data(file_path):
     data = pd.read_csv(file_path)
     data = data[["text", "sentiment"]]
