@@ -9,3 +9,8 @@ using NLTK or a transformer model with scikit learn to train from csv and predic
 - install requirements from txt using pip
 - download csv from https://www.kaggle.com/datasets/crowdflower/first-gop-debate-twitter-sentiment?resource=download
 - start py script
+
+
+![results](report.png)
+
+![word visuals](visualise_words.png)
